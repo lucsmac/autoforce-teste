@@ -1,0 +1,58 @@
+<!-- Desenvolvi o layout do menu utilizando as tecnologias básicas: HTML e CSS, visto que por ser algo simples não necessitaria de um framework como React ou Vue. O enunciado diz para desenvolver apenas a segunda tela, porém na parte inferior da segunda tela do layout do adobe XD aparece um pedacinho do que seria o final da primeira tela, decidi não implementar pois entendi que faria parte da primeira, e não da segunda, ou seja, desenvolvi apenas o menu e o header. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="burguer-menu">
+        <div class="burguer"></div>
+        <div class="burguer"></div>
+        <div class="burguer"></div>
+      </div>
+      <img src="./assets/imgs/dealer-logo.svg" alt="Dealer" class="logo">
+      <div class="contact-links">
+        <img src="./assets/imgs/phone-icon.svg" class="link-icon phone"></img>
+        <img src="./assets/imgs/wpp-icon.svg" class="link-icon wpp"></img>
+      </div>
+      <img src="./assets/imgs/fiat-logo.svg" alt="" class="logo-fiat">
+    </nav>
+  </header>
+  <div class="menu-dropdown">
+    <div class="dropdown-content">
+      <div class="institucional">
+        <p>Institucional</p>
+        <span class="arrow up"></span>
+      </div>
+      <ul class="menu-dropdown-links">
+        <li class="menu-dropdown-institucional">
+          <ul class="institucional-dropdown">
+            <li class="menu-dropdown-item institucional-dropdown-item">Quem Somos</li>
+            <li class="menu-dropdown-item institucional-dropdown-item">Fale Conosco</li>
+            <li class="menu-dropdown-item institucional-dropdown-item">Endereços</li>
+          </ul>
+        </li>
+        <li class="menu-dropdown-item">Novos</li>
+        <li class="menu-dropdown-item">Ofertas</li>
+        <li class="menu-dropdown-item">Seminovos</li>
+        <li class="menu-dropdown-item novo">Consórcio</li>
+        <li class="menu-dropdown-item">Vendas Direta</li>
+        <li class="menu-dropdown-item">Lifestyle</li>
+        <li class="menu-dropdown-item">Pós-vendas</li>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
